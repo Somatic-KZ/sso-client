@@ -3,6 +3,8 @@ package grpc
 import (
 	"context"
 
+	"github.com/Somatic-KZ/sso-client/client"
+	"github.com/Somatic-KZ/sso-client/protobuf"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
