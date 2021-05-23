@@ -3,8 +3,8 @@ package client
 import (
 	"errors"
 
-	"github.com/JetBrainer/sso-client/client"
-	"github.com/JetBrainer/sso-client/client/grpc"
+	"github.com/Somatic-KZ/sso-client/client"
+	"github.com/Somatic-KZ/sso-client/client/grpc"
 )
 
 type Config struct {
