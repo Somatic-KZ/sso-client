@@ -19,7 +19,7 @@ func NewClient() *SSOClient {
 }
 
 func(s *SSOClient) Connect(addr string) error {
-	cc, err := grpc.Dial(addr)
+	cc, err := grpc.Dial(addr, grpc.WithInsecure())
 	if err != nil {
 		return err
 	}
